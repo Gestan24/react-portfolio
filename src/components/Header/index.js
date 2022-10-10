@@ -1,14 +1,19 @@
-// import Navagation from '../Navigation';
+import Navagation from '../Navigation';
 
 function Header() {
 
     return (
 
-        <div className="jumbotron">
+        <div id='jumbotron' className="jumbotron d-flex">
 
-            <h1 className="display-1">
+            <h1 className="p-3 display-4">
                 Gestan Joshua
             </h1>
+
+            <div>
+            <Navagation></Navagation>
+            </div>
+
 
             
 
