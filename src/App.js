@@ -7,18 +7,25 @@ import './App.css';
 
 function App() {
 
-  // const [selectedComponent, setSelectedComponent] = useState(false);
+  const [selectedComponent, setSelectedComponent] = useState('About');
 
   return (
     <div>
 
       <Header>
-        {/* selectedComponent= {selectedComponent}
-        setSelectedComponent= {setSelectedComponent} */}
+        selectedComponent= {selectedComponent}
+        setSelectedComponent= {setSelectedComponent}
       </Header>
 
       <main>
-        <About></About>
+        {selectedComponent === 'About' ? (
+          <About></About>
+        ) : selectedComponent === 'Portfolio' ? (
+          <Project></Project>
+        ) : selectedComponent === 'Contact' ? (
+          <Contact></Contact>
+        ) : selectedComponent === 'Resume' }
+        
       </main>
      
     </div>
