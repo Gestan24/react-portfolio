@@ -37,6 +37,16 @@ function Contact() {
 
         }
 
+        if (e.target.name === 'message') {
+
+            if (!e.target.value.length) {
+                setErrorMessage(`${e.target.name} is required.`);
+            } else {
+                setErrorMessage('');
+            }
+
+        }
+
 
 
         if (!errorMessage) {

@@ -4,6 +4,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 import './App.css';
 
 
@@ -27,10 +28,13 @@ function App() {
           <Project></Project>
         ) : selectedComponent === 'Contact' ? (
           <Contact></Contact>
-        ) : selectedComponent === 'Resume' } */}
+        ) : (
+          <Resume></Resume>
+        )} */}
         {/* <About></About> */}
         {/* <Project></Project> */}
-        <Contact></Contact>
+        {/* <Contact></Contact> */}
+        <Resume></Resume>
       </main>
       <Footer></Footer>
 
