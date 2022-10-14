@@ -3,6 +3,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Footer from './components/Footer';
 import Project from './components/Project';
+import Contact from './components/Contact';
 import './App.css';
 
 
@@ -28,7 +29,8 @@ function App() {
           <Contact></Contact>
         ) : selectedComponent === 'Resume' } */}
         {/* <About></About> */}
-        <Project></Project>
+        {/* <Project></Project> */}
+        <Contact></Contact>
       </main>
       <Footer></Footer>
 
