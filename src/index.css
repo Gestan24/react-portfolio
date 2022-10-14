@@ -21,11 +21,6 @@ li {
   background-color: #8ac926;
 }
 
-main {
-
-  background-color: #fef9ef;
-}
-
 footer {
 
   background-color: #8ac926;
@@ -35,4 +30,15 @@ footer {
   width: 75px;
 
   height: 75px;
+}
+
+.primary {
+  background-color: #fef9ef;
+}
+
+#portfolio-img {
+
+  width: 425px;
+
+  height: 225px;
 }

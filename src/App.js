@@ -2,6 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import About from './components/About';
 import Footer from './components/Footer';
+import Project from './components/Project';
 import './App.css';
 
 
@@ -11,7 +12,7 @@ function App() {
   // const [selectedComponent, setSelectedComponent] = useState('About');
 
   return (
-    <div>
+    <div className='primary'>
 
       <Header>
         {/* selectedComponent= {selectedComponent}
@@ -26,7 +27,8 @@ function App() {
         ) : selectedComponent === 'Contact' ? (
           <Contact></Contact>
         ) : selectedComponent === 'Resume' } */}
-        <About></About>
+        {/* <About></About> */}
+        <Project></Project>
       </main>
       <Footer></Footer>
 
