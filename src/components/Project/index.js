@@ -1,6 +1,6 @@
 import cms from '../../assets/images/cms_img.png';
 import bnb from '../../assets/images/BNB_launch.png';
-import hb from '../../assets/images/HB.png';
+import hb from '../../assets/images/homebase.png';
 import dash from '../../assets/images/weather-dashboard.png';
 import note from '../../assets/images/note-taker.png';
 import pass from '../../assets/images/pass-gen.png';
