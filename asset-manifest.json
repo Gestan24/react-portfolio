@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f1531854.css",
+    "main.js": "/react-portfolio/static/js/main.6c763d03.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/BNB_launch.png": "/react-portfolio/static/media/BNB_launch.70b7df63db7ef590e0da.png",
+    "static/media/Gestan-headshot.jpg": "/react-portfolio/static/media/Gestan-headshot.9265c83301db8d7191f8.jpg",
+    "static/media/homebase.png": "/react-portfolio/static/media/homebase.fb7312837c12313ef1ac.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.8bf068ed1528d991d903.png",
+    "static/media/cms_img.png": "/react-portfolio/static/media/cms_img.c32b2c9162823d382672.png",
+    "static/media/linkdin_icon.png": "/react-portfolio/static/media/linkdin_icon.c8da84529af1751057a9.png",
+    "static/media/pass-gen.png": "/react-portfolio/static/media/pass-gen.cbc5d0c8386c5fcac217.png",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.1d666f06dbf8fa073fb2.png",
+    "static/media/stackoverflow_icon.png": "/react-portfolio/static/media/stackoverflow_icon.1fdaaa6247914e51d49b.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.f1531854.css.map": "/react-portfolio/static/css/main.f1531854.css.map",
+    "main.6c763d03.js.map": "/react-portfolio/static/js/main.6c763d03.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1531854.css",
+    "static/js/main.6c763d03.js"
+  ]
+}
