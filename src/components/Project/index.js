@@ -1,6 +1,6 @@
 import cms from '../../assets/images/cms_img.png';
 import bnb from '../../assets/images/BNB_launch.png';
-import hb from '../../assets/images/homebase.png';
+import base from '../../assets/images/group_base.png';
 import dash from '../../assets/images/weather-dashboard.png';
 import note from '../../assets/images/note-taker.png';
 import pass from '../../assets/images/pass-gen.png';
@@ -68,7 +68,7 @@ function Project() {
 
                     <div className="col-lg-6 col-sm-12">
 
-                        <img src={hb} id='portfolio-img' />
+                        <img src={base} id='portfolio-img' />
 
                         <div className='row m-auto'>
                             <a href='https://enigmatic-bastion-69025.herokuapp.com/'>
