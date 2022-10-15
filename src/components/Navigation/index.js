@@ -1,4 +1,13 @@
-function Navigation() {
+import React, { useState } from 'react';
+
+function Navigation(props) {
+
+    const {
+        selectedComponent,
+        setSelectedComponent
+    } = props;
+
+
 
     return (
 
@@ -7,19 +16,19 @@ function Navigation() {
             <ul className="d-inline-flex mt-5">
 
                 <li className="px-5">
-                    <a className="text-dark h3" href="#about">About Me</a>
+                    <a className="text-dark h3" href="#about" onClick={() => setSelectedComponent('About')}>About Me</a>
                 </li>
 
-                <li className="px-5">
-                    <a className="text-dark h3" href="#portfolio">Portfolio</a>
+                <li className={`px-5 ${selectedComponent && 'navActive'}`}>
+                    <span className="text-dark h3" onClick={() => setSelectedComponent('Portfolio')}>Portfolio</span>
                 </li>
 
-                <li className="px-5">
-                    <a className="text-dark h3" href="#contact">Contact</a>
+                <li className={`px-5 ${selectedComponent && 'navActive'}`}>
+                    <span className="text-dark h3" onClick={() => setSelectedComponent('Contact')}>Contact</span>
                 </li>
 
-                <li className="px-5">
-                    <a className="text-dark h3" href="#resume">Resume</a>
+                <li className={`px-5 ${selectedComponent && 'navActive'}`}>
+                    <span className="text-dark h3" onClick={() => setSelectedComponent('Resume')}>Resume</span>
                 </li>
             </ul>
 

@@ -1,6 +1,11 @@
 import Navagation from '../Navigation';
 
-function Header() {
+function Header(props) {
+
+    const {
+        selectedComponent,
+        setSelectedComponent
+    } = props;
 
     return (
         <div>
@@ -9,7 +14,10 @@ function Header() {
                     Gestan Joshua
                 </h1>
                 <div>
-                    <Navagation></Navagation>
+                    <Navagation
+                    selectedComponent={selectedComponent}
+                    setSelectedComponent={setSelectedComponent}
+                    ></Navagation>
                 </div>
             </div>
         </div>
