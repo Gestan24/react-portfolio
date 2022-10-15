@@ -64,7 +64,7 @@ function Contact() {
 
         <div>
             <div id='card-background' className='card mx-5 px-3 pt-2 pb-5'>
-                <h1 className=''>Contact Me!</h1>
+                <h1 className=''>Contact</h1>
                 <form id='contact-form' onSubmit={handleSubmit}>
                     <div className="form-group col-4">
                         <label htmlFor='name'>Name</label>
