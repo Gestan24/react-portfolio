@@ -27,11 +27,10 @@ function About() {
 
                 <p className='col-sm'>
 
-                    I was born and raised in Milwaukee, Wisconsin. I graduated Riverside High School in 2011. I'm a huge fan of music and games.
-                    I started playing an instrument around 6th grade and continued to play until i graduated. I studied french all through high
-                    school and came within 2 classes of having a minor in french. I traveled to Europe my jr year of high school to visit Paris
-                    and Spain for 10 days. I love traveling and learning new and different cultures! I've always been into tech and recently
-                    bought parts to build my own desktop computer.
+                    I was born and raised in Milwaukee, Wisconsin. I graduated Riverside High School in 2011. I went to college for a few years but then dropped out to pay for my bills.
+                     I worked at AT&T for 4 years and after that I've just been trying to figure out what I wanted to do in my life. I stumbled across a computer coding course
+                     online through the University of Wisconsin school system and decided to enrolled because I was highly interested. I've recently finished that 
+                     bootcamp and finished with an A in the class! I'm looking to get my foot in the door, start gaining more knowledge, and expand my network! 
 
                 </p>
 

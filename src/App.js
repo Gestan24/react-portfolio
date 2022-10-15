@@ -16,10 +16,10 @@ function App() {
   return (
     <div className='primary'>
 
-      <Header>
+      <Header
         selectedComponent= {selectedComponent}
         setSelectedComponent= {setSelectedComponent}
-      </Header>
+      ></Header>
 
       <main className='vh-100'>
         {selectedComponent === 'About' ? (

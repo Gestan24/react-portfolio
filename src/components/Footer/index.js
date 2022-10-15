@@ -6,7 +6,7 @@ function Footer() {
 
     return (
 
-        <footer className="footer">
+        <footer className="footer fixed-bottom">
             <div className='d-flex justify-content-center'>
                 <a href='https://github.com/Gestan24'>
                     <img src={github} alt='git hub icon' id='img' className='p-2 mx-3' />

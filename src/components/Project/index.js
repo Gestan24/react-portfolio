@@ -19,11 +19,11 @@ function Project() {
 
             </div>
 
-            <div className="container mb-5 pl-3 pr-3 pb-3 align-self-center">
+            <div className="container mb-5 pl-3 pr-3 pb-3 col-12 d-flex">
 
-                <div className="row">
+                <div className="row d-flex flex-wrap">
 
-                    <div className="col-6 pb-3">
+                    <div className="col-lg-6 col-sm-12">
 
                         <img src={cms} id='portfolio-img' />
 
@@ -46,7 +46,7 @@ function Project() {
 
                     </div>
 
-                    <div className="col-6 pb-3">
+                    <div className="col-lg-6 col-sm-12">
 
                         <img src={bnb} id='portfolio-img' />
 
@@ -66,7 +66,7 @@ function Project() {
 
                     </div>
 
-                    <div className="col-6 pb-3">
+                    <div className="col-lg-6 col-sm-12">
 
                         <img src={hb} id='portfolio-img' />
 
@@ -86,7 +86,7 @@ function Project() {
 
                     </div>
 
-                    <div className="col-6 pb-3">
+                    <div className="col-lg-6 col-sm-12">
 
                         <img src={dash} id='portfolio-img' />
 
@@ -106,7 +106,7 @@ function Project() {
 
                     </div>
 
-                    <div className="col-6 pb-3">
+                    <div className="col-lg-6 col-sm-12">
 
                         <img src={note} id='portfolio-img' />
 
@@ -126,7 +126,7 @@ function Project() {
 
                     </div>
 
-                    <div className="col-6 pb-3">
+                    <div className="col-lg-6 col-sm-12">
 
                         <img src={pass} id='portfolio-img' />
 

@@ -1,12 +1,18 @@
-a {
+* {
+
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+li a, li a:hover {
   text-decoration: none;
-  color: black;
+  
+  color: inherit;
+
+  box-shadow: none;
+  
   
 }
 
-a:hover {
-  text-decoration: underline;
-}
 
 li {
   list-style: none;
@@ -21,18 +27,18 @@ nav  li {
 }
 
 #jumbotron {
-
+  
   background-color: #8ac926;
 }
 
 footer {
-
+  
   background-color: #8ac926;
 }
 
 #img {
   width: 75px;
-
+  
   height: 75px;
 }
 
@@ -41,14 +47,14 @@ footer {
 }
 
 #portfolio-img {
-
-  width: 425px;
-
-  height: 225px;
+  
+  width: 375px;
+  
+  height: 150px;
 }
 
 #card-background {
-
+  
   background-color: #dee2e6;
   margin-top: 250px;
 }
