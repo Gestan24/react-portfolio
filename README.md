@@ -31,4 +31,4 @@ Sam Varney (clasmate) helped me rid of bugs and figure out useState logic.
 
 ## Link to Website
 
-https://634a523daa66ac64e3f79982--kaleidoscopic-yeot-353c2e.netlify.app/
+https://shiny-buttercream-9b3053.netlify.app/
