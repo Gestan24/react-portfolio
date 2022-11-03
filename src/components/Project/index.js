@@ -2,7 +2,7 @@ import cms from '../../assets/images/cms_img.png';
 import bnb from '../../assets/images/BNB_launch.png';
 import base from '../../assets/images/group_base.png';
 import dash from '../../assets/images/weather-dashboard.png';
-import note from '../../assets/images/note-taker.png';
+import style from '../../assets/images/style_buddy.png';
 import pass from '../../assets/images/pass-gen.png';
 
 function Project() {
@@ -108,12 +108,12 @@ function Project() {
 
                     <div className="col-lg-6 col-sm-12">
 
-                        <img src={note} id='portfolio-img' />
+                        <img src={style} id='portfolio-img' />
 
                         <div className='row m-auto'>
-                            <a href='https://cryptic-reef-26081.herokuapp.com/'>
+                            <a href='https://style-buddy22.herokuapp.com/'>
 
-                                <p className='pt-1 col'>Note Taker</p>
+                                <p className='pt-1 col'>Style Buddy</p>
 
                             </a>
 
