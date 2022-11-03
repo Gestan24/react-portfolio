@@ -117,7 +117,7 @@ function Project() {
 
                             </a>
 
-                            <a href='https://github.com/Gestan24/note-taker'>
+                            <a href='https://github.com/Gestan24/react-portfolio'>
 
                                 <p className='pt-1 col'>Github</p>
 
