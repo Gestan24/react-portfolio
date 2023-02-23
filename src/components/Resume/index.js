@@ -7,7 +7,7 @@ function Resume() {
                 <h1 className="text-center">Resume</h1>
             </div>
             <div className="container mt-5">
-                <p> Download my <span><a href="https://drive.google.com/file/d/1a_lTziwZzzRm1q2afHf0B8TH5hRqTKum/view?usp=sharing">resume</a></span></p>
+                <p> Download my <span><a href="https://docs.google.com/document/d/1mEb-vbIMKk8hbJk-xWsO6Ik7UfI9RU7xDhZJTM7nL6g/edit?usp=sharing">resume</a></span></p>
                 <div>
                     <h3 className="mt-5">Front-end Proficiencies </h3>
                     <ul>
