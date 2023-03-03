@@ -28,7 +28,7 @@ function Project() {
                         <img src={cms} id='portfolio-img' />
 
                         <div className='row m-auto'>
-                            <a href='https://safe-dawn-06356.herokuapp.com/'>
+                            <a href='https://boiling-shore-70072.herokuapp.com/'>
 
                                 <p className='pt-1 col'>CMS Tech Blog</p>
 
