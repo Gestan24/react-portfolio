@@ -62,3 +62,11 @@ footer {
 .list-item {
   list-style: square;
 }
+
+/* @media screen and (max-width: 1350px) {
+
+  main {
+    display: flex;
+  }
+
+} */
