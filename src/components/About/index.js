@@ -1,4 +1,4 @@
-import Gestan from '../../assets/images/Gestan-headshot.jpg';
+import Gestan from '../../assets/images/Gestan-headshot2.jpg';
 
 function About() {
 
